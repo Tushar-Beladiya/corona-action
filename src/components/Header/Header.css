@@ -1,0 +1,316 @@
+header {
+   padding: 15px 0px;
+   margin-bottom: 15px;
+   box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+}
+header .logo_icon {
+   display: flex;
+   align-items: center;
+}
+header .logo_icon .logo {
+   padding-left: 20px;
+}
+.add_card {
+   width: 90%;
+}
+.language {
+   widows: 100%;
+   margin-left: 20%;
+}
+.search input[type="text"] {
+   border: 2px solid #e9ecef;
+   background: #fff;
+   border-radius: 50px;
+   display: block;
+   width: 100%;
+   outline: none;
+   box-shadow: none;
+   padding: 5px 0px 5px 36px;
+}
+.search {
+   position: relative;
+}
+.popup-content {
+   width: 42% !important;
+}
+.search i {
+   color: #63799b;
+   position: absolute;
+   top: 50%;
+   left: 4%;
+   transform: translateY(-50%);
+}
+select {
+   outline: none;
+   border: 1px solid #e9ecef;
+   border-radius: 30px;
+   width: 100%;
+   padding: 5px 0px 5px 40px;
+   position: initial;
+}
+.location img {
+   color: #63799b;
+   position: absolute;
+   top: 50%;
+   left: 13%;
+   transform: translateY(-50%);
+   z-index: 1;
+}
+a {
+   color: black;
+}
+.language p {
+   font-weight: 600;
+   color: #707070;
+   text-align: center;
+}
+.row.headre_div {
+   align-items: center;
+}
+.add_card button {
+   background: #fff;
+   outline: none;
+   box-shadow: none;
+   border: 2px solid #ff9900;
+   width: 50%;
+   border-radius: 50px;
+   padding: 5px 5px 5px 5px;
+   font-weight: 600;
+   color: #707070;
+   position: relative;
+}
+.add_card button i {
+   color: #63799b;
+   position: absolute;
+   top: 50%;
+   left: 13%;
+   transform: translateY(-50%);
+   z-index: 1;
+}
+/*button*/
+.box_button button {
+   border: 1px solid #97a3b5;
+   background: #fff;
+   outline: none;
+   border-radius: 50px;
+   color: #97a3b5;
+   padding: 8px 11px;
+   font-size: 15px;
+   width: 180px;
+   text-align: center;
+}
+.box_button button img {
+   padding-right: 4px;
+}
+.buttos_fix .row {
+   justify-content: space-around;
+   margin: 0px 15px;
+}
+.box_main .box_button {
+   display: inline-block;
+   width: 19%;
+   margin-bottom: 16px;
+}
+.box_main {
+   text-align: center;
+   margin: 44px 0px 30px 0px;
+}
+.App {
+   text-align: center;
+}
+
+.App-logo {
+   height: 40vmin;
+   pointer-events: none;
+}
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "Montserrat", sans-serif;
+}
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+.App-header {
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+
+.App-link {
+   color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+   .box_main .box_button {
+      width: 30%;
+   }
+}
+@media (max-width: 767px) and (min-width: 495px) {
+   .box_main .box_button {
+      width: 42%;
+   }
+}
+@media (max-width: 494px) {
+   .box_main .box_button {
+      width: 100%;
+   }
+}
+.ListMenu {
+   background-color: #fd9a0c;
+   color: #fff;
+   font-size: 17px;
+   padding: 10px;
+   display: none;
+   cursor: pointer;
+   margin-bottom: 1rem;
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+   button.btn.btn-secondary {
+   }
+   .language {
+      width: 92px;
+      margin-left: 0px !important;
+   }
+   header .logo_icon .logo {
+      width: 67%;
+      padding-left: 9px;
+   }
+   .location_icon {
+      display: none;
+   }
+   select {
+      padding: 5px !important;
+   }
+   .add_card {
+      margin-left: -17px;
+      width: 152%;
+   }
+   .box_button button {
+      border: 1px solid #97a3b5;
+      background: #fff;
+      outline: none;
+      border-radius: 50px;
+      color: #97a3b5;
+      padding: 8px 3px;
+      font-size: 15px;
+      width: 164px;
+      text-align: center;
+   }
+}
+@media (max-width: 767px) {
+   .ListMenu {
+      display: block;
+   }
+   .box_main {
+      display: none;
+   }
+   header .logo_icon {
+      margin-bottom: 20px;
+   }
+   .search {
+      margin-bottom: 10px;
+   }
+}
+.active {
+   display: block;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+   .add_card button {
+      width: 100%;
+   }
+}
+.location_icon {
+   float: left;
+   margin-top: 5px;
+   position: absolute;
+   margin-left: 20px;
+   font-size: 19px;
+}
+@media (max-width: 768px) {
+   .btn-about {
+      position: absolute;
+      top: 2%;
+      left: 30%;
+   }
+   .search-this {
+      margin-top: 2%;
+   }
+   .location-col {
+      margin-top: 2%;
+   }
+   .select-col {
+      margin-top: 2%;
+   }
+   .add_card {
+      margin-top: 2%;
+      width: 100%;
+   }
+   .location_icon {
+      float: left;
+      margin-top: 6px;
+      position: absolute;
+      margin-left: 20px;
+      font-size: 19px;
+   }
+   .select-form-col {
+      padding-left: 40px;
+   }
+}
+
+@media (max-width: 320px) {
+   .col-lg-3.search-class {
+      margin-right: 40px;
+      width: 70%;
+   }
+   button.btn.btn-secondary {
+      margin-right: 35px;
+      font-size: 11px;
+   }
+   .add_card button {
+      width: 100%;
+   }
+}
+@media (max-width: 425px) and (min-width: 425px) {
+   .btn-about {
+      position: absolute;
+      top: 2%;
+      left: 25%;
+   }
+   .add_card button {
+      width: 390px;
+   }
+}
+
+@media (max-width: 375px) {
+   button.btn.btn-secondary {
+      font-size: 13px;
+      margin-right: 37px;
+   }
+   .logo_icon {
+      width: 55%;
+   }
+}
+
+@media (max-width: 1440px) {
+   button.btn.btn-secondary {
+      width: 102px;
+   }
+}
